@@ -1,0 +1,25 @@
+<html>
+
+<head>
+</head>
+
+<body>
+  <div id="demo"></div>
+  <script>
+    const numbers = [45, 4, 9, 16, 25];
+
+    let txt = "";
+    numbers.forEach(myFunction);
+
+
+    function myFunction(value, index, array) {
+      txt += array + "<br>";
+    }
+    document.getElementById("demo").innerHTML = txt;
+  </script>
+</body>
+
+</html>
+
+
+

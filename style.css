@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background:black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+.logo{
+  position: relative;
+  
+  margin-left: 30px;
+  
+  font-size: 40px;
+ color: aqua;
+  
+  text-decoration:none;
+  font-weight: 900;
+  
+  
+ 
+  
+
+}
+.navbar a{
+  display: inline-block;
+  text-decoration: none;
+  font-size: 15px;
+  margin-left: 35px;
+  margin-right: 10px;
+ }   
+
+#home{
+    
+    position: relative;
+    
+    width: 100%; 
+    height: 100vh;
+    background-image: url(image/photo-output.JPEG); 
+    background-repeat: no-repeat;
+    
+    background-position-x: left;
+    background-size:1000px 900px; 
+    display: flex;
+    align-items: center;
+    padding: 70px 10px 0;
+    background-color: black;
+    
+}
+  .home-content{
+    font-size:larger;
+    color: aliceblue;
+    margin-left: 800px;
+    margin-bottom: 130px;
+  }
+  .home-soc a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 30px;
+    background: transparent;
+    border: 2px solid rgb(174, 4, 10);
+    border-radius: 20px;
+    font-size: 25px;
+    color:antiquewhite;
+    text-decoration: none;
+  }
+  .home-soc a:hover{
+    background: aqua;
+    color: black;
+    box-shadow: 0px 0px 30px aqua;
+  }
+  .iamgeaboutpage{
+    width: 100%;
+    margin: 10px;
+    }
+  .aboutme{
+    
+    margin-top: 150px;
+    margin-bottom: 100px;
+    font-size: 50px;
+  }
+  .button{
+    margin-top: 30px;
+    align-items:left;
+    border: none;
+    width: 160px;
+    height: 50px; 
+    background-color:red;
+    text-align: center;
+     }
+     .button:hover{
+      background-color: aqua;
+     }
+     #skills{
+      margin-top: 200px;
+     }
+     .para{
+      font-size: larger;
+      font-weight: 400;
+     }
+     .col-6 li{
+      letter-spacing: 1px;
+      font-size: larger;
+      justify-content: space-between;
+     }
+     .skills1{
+      font-size: larger;
+        letter-spacing: 2px;
+        font-weight: 500;
+        margin-top: 90px
+     }
+     .skill{
+      width: 100%;
+      background-color: #ddd;
+     }
+     .skills2{text-align: right; padding-top: 10px; padding-bottom: 10px;color: white; }
+     .language{ text-align: right; padding-top: 10px; padding-bottom: 10px; color: white; }
+     .html{ width: 90%; background-color:blue; }
+     .css{width: 80%; background-color:blue;}
+     .js{width: 50%; background-color: blue;}
+     .english{width: 90%; background-color: blue;}
+     .tamil{width: 95%; background-color: blue;}
+     .malayalam{width: 80%; background-color: blue;}
+      
+.btn{background-color: rgb(247, 52, 52);}
+.btn:hover{background-color:aqua;}
+  
+.contact-con{margin-top: 50px;}
+
+ .demo{
+  list-style-type: none;
+  
+  }
+ 
+ footer{
+  background-color:grey;
+ }
+ .footercontainer{
+  width: 100%;
+  padding: 40px 15px 10px;
+ }
+ .social-icons{
+  display: flex;
+  justify-content: center;
+ }
+ .social-icons a{
+  text-decoration: none;
+  padding: 10px;
+  
+ }
+ .social-icons a i{
+  font-size: 2em;
+  color: black;
+   }
+   .social-icons a i:hover{
+    background-color:white;
+   }
+   .footer-bottom{
+    background-color:grey;
+    text-align:center;
+   }
+   .designer{
+    font-style: italic;
+    opacity:0.9;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 400;
+   }
+
+
+    @media(max-width:720px){
+        .navbar a{
+          flex-direction: column;
+          width: 100%;
+        }
+     
+    
+    }
+    
+     
+ 
+
+
+

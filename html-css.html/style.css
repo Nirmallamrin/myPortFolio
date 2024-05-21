@@ -1,0 +1,23 @@
+h1{
+    color:red;
+    background-color: gray;
+    text-align: center;
+}
+h2{
+    color: blue;
+    background-color: whitesmoke;
+    text-align: left;
+}
+h3{
+    color: orchid;
+    background-color: whitesmoke;
+    text-align: right;
+}
+p.a{
+    
+    direction: rtl;
+}
+p.b{
+   
+    direction: ltr;
+}
